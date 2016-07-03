@@ -39,6 +39,14 @@
 		</dict>
 		<dict>
 			<key>begin</key>
+			<string>#</string>
+			<key>end</key>
+			<string>$</string>
+			<key>name</key>
+			<string>comment.line.hash.asp</string>
+		</dict>
+		<dict>
+			<key>begin</key>
 			<string>/\*</string>
 			<key>end</key>
 			<string>\*/</string>
