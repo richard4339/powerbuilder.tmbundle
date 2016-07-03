@@ -30,6 +30,22 @@
 			<string>meta.ending-space</string>
 		</dict>
 		<dict>
+			<key>begin</key>
+			<string>//</string>
+			<key>end</key>
+			<string>$</string>
+			<key>name</key>
+			<string>comment.line.double-slash.asp</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>/\*</string>
+			<key>end</key>
+			<string>\*/</string>
+			<key>name</key>
+			<string>comment.block.asp</string>
+		</dict>
+		<dict>
 			<key>include</key>
 			<string>#round-brackets</string>
 		</dict>
