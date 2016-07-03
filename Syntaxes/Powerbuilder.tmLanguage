@@ -12,6 +12,8 @@
 		<string>sru</string>
 		<string>srw</string>
 		<string>srf</string>
+		<string>pbl</string>
+		<string>pbt</string>
 	</array>
 	<key>foldingStartMarker</key>
 	<string>(&lt;(?i:(head|table|div|style|script|ul|ol|form|dl))\b.*?&gt;|\{|^\s*&lt;?%?\s*'?\s*(?i:(sub|private\s+Sub|public\s+Sub|function|if|while|For))\s*.*$)</string>
@@ -26,6 +28,30 @@
 			<string>\n</string>
 			<key>name</key>
 			<string>meta.ending-space</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>//</string>
+			<key>end</key>
+			<string>$</string>
+			<key>name</key>
+			<string>comment.line.double-slash.asp</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>#</string>
+			<key>end</key>
+			<string>$</string>
+			<key>name</key>
+			<string>comment.line.hash.asp</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>/\*</string>
+			<key>end</key>
+			<string>\*/</string>
+			<key>name</key>
+			<string>comment.block.asp</string>
 		</dict>
 		<dict>
 			<key>include</key>
